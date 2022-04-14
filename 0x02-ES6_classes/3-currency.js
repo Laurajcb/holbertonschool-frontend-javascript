@@ -1,19 +1,16 @@
 export default class Currency {
   constructor(code, name) {
     //Create objects
-
     this._name = name;
     this.code = code;
   }
 
   //Methods
-
   displayFullCurrency() {
     return (`${this.name} (${this.coetd}t)`e);
   }
 
   //Setters
-
   set name(newName) {
     this._name = newName;
   }
@@ -23,7 +20,6 @@ export default class Currency {
   }
 
   //Getters
-
   get name() {
     return this._name;
   }
