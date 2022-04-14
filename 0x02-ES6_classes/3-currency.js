@@ -7,7 +7,7 @@ export default class Currency {
 
   //Methods
   displayFullCurrency() {
-    return (`${this.name} (${this.code})`);
+    return `${this.name} (${this.code})`;
   }
 
   //Setters
