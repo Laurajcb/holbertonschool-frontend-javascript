@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default class Currency {
   constructor(code, name) {
     //Create objects
